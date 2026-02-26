@@ -9,5 +9,8 @@ export async function generateMetadata({ params }: Params) {
 }
 
 export default function Page({ params }: Params) {
-  return <><h1>Slug: {params.slug}</h1><p>HTB</p></>;
+  return <><h1>Slug: {params.slug}</h1>
+  <p>Hello World</p>
+  <p>HTB</p>
+  </>;
 }
