@@ -3,5 +3,7 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <h1>App Router</h1>;
+  return <><h1>App Router</h1>
+  <p>Test CI/CD</p>
+  <p>Huỳnh Thanh Bình</p></>;
 }
